@@ -1,0 +1,82 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Registration with scenario outline and data table",
+    "line": 1,
+    "id": "registration-with-scenario-outline-and-data-table",
+    "tags": [],
+    "uri": "registration.feature",
+    "elements": [
+      {
+        "id": "registration-with-scenario-outline-and-data-table;registration-data-table",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "registration data table",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 20
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigates to registration page",
+            "result": {
+              "status": "passed",
+              "duration": 2857000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "ssn",
+                      "firstname",
+                      "lastname",
+                      "username",
+                      "email",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "384-37-3427",
+                      "Irfan",
+                      "Pishkin",
+                      "irfanpish",
+                      "irfan@gmail.com",
+                      "asdfA123."
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "user provides below information for registration",
+            "result": {
+              "status": "passed",
+              "duration": 2372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "user clicks the register button and validate login is succesfully",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 Feature: Google Search
 
-@Manager2
+
 Scenario Outline: Google with scenario outline
   Given go to url
   Then search for "<capitals>"
